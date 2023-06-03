@@ -1,0 +1,51 @@
+V3 38
+FL C:/MKS/MKS_Lab3/ACC.vhd 2021/05/13.14:39:30 P.20131013
+EN work/ACC 1620915823 FL C:/MKS/MKS_Lab3/ACC.vhd PB ieee/std_logic_1164 1381692176
+AR work/ACC/Behavioral 1620915824 \
+      FL C:/MKS/MKS_Lab3/ACC.vhd EN work/ACC 1620915823
+FL C:/MKS/MKS_Lab3/ALU.vhd 2021/05/13.12:43:56 P.20131013
+EN work/ALU 1620915821 FL C:/MKS/MKS_Lab3/ALU.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/std_logic_arith 1381692177
+AR work/ALU/Behavioral 1620915822 \
+      FL C:/MKS/MKS_Lab3/ALU.vhd EN work/ALU 1620915821
+FL C:/MKS/MKS_Lab3/clock_divider.vhd 2021/05/11.22:02:58 P.20131013
+EN work/clock_divider 1620759785 FL C:/MKS/MKS_Lab3/clock_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_divider/Behavioral 1620759786 \
+      FL C:/MKS/MKS_Lab3/clock_divider.vhd EN work/clock_divider 1620759785
+FL C:/MKS/MKS_Lab3/CU.vhd 2021/05/13.14:45:02 P.20131013
+EN work/CU 1620915817 FL C:/MKS/MKS_Lab3/CU.vhd PB ieee/std_logic_1164 1381692176
+AR work/CU/Behavioral 1620915818 \
+      FL C:/MKS/MKS_Lab3/CU.vhd EN work/CU 1620915817
+FL C:/MKS/MKS_Lab3/MUX_2_1.vhd 2021/05/10.14:57:23 P.20131013
+EN work/MUX_3_1 1620915825 FL C:/MKS/MKS_Lab3/MUX_2_1.vhd PB ieee/std_logic_1164 1381692176
+AR work/MUX_3_1/Behavioral 1620915826 \
+      FL C:/MKS/MKS_Lab3/MUX_2_1.vhd EN work/MUX_3_1 1620915825
+FL C:/MKS/MKS_Lab3/RAM.vhd 2021/05/12.13:53:58 P.20131013
+EN work/RAM 1620915819 FL C:/MKS/MKS_Lab3/RAM.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RAM/Behavioral 1620915820 \
+      FL C:/MKS/MKS_Lab3/RAM.vhd EN work/RAM 1620915819
+FL C:/MKS/MKS_Lab3/SegmentDecoder.vhd 2021/05/13.14:11:34 P.20131013
+EN work/SegmentDecoder 1620915827 FL C:/MKS/MKS_Lab3/SegmentDecoder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SegmentDecoder/Behavioral 1620915828 \
+      FL C:/MKS/MKS_Lab3/SegmentDecoder.vhd EN work/SegmentDecoder 1620915827
+FL C:/MKS/MKS_Lab3/TopLevel.vhf 2021/05/13.17:23:33 P.20131013
+EN work/INV8_HXILINX_TopLevel 1620915829 FL C:/MKS/MKS_Lab3/TopLevel.vhf \
+      PB ieee/std_logic_1164 1381692176
+AR work/INV8_HXILINX_TopLevel/INV8_HXILINX_TopLevel_V 1620915830 \
+      FL C:/MKS/MKS_Lab3/TopLevel.vhf EN work/INV8_HXILINX_TopLevel 1620915829
+EN work/CB16CE_HXILINX_TopLevel 1620915831 \
+      FL C:/MKS/MKS_Lab3/TopLevel.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CB16CE_HXILINX_TopLevel/Behavioral 1620915832 \
+      FL C:/MKS/MKS_Lab3/TopLevel.vhf EN work/CB16CE_HXILINX_TopLevel 1620915831
+EN work/TopLevel 1620915833 \
+      FL C:/MKS/MKS_Lab3/TopLevel.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TopLevel/BEHAVIORAL 1620915834 \
+      FL C:/MKS/MKS_Lab3/TopLevel.vhf EN work/TopLevel 1620915833 CP CU CP RAM \
+      CP ALU CP ACC CP MUX_3_1 CP SegmentDecoder CP INV CP CB16CE_HXILINX_TopLevel \
+      CP INV8_HXILINX_TopLevel

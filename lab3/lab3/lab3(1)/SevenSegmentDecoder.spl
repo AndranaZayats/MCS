@@ -1,0 +1,11 @@
+[Inputs]
+=Digit[3:0]=
+[Outputs]
+segment_A
+segment_B
+segment_C
+segment_D
+segment_E
+segment_F
+segment_G
+[BiDir]

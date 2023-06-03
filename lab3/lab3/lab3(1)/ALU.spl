@@ -1,0 +1,8 @@
+[Inputs]
+=B[7:0]=
+=A[7:0]=
+=ALU_SEL[2:0]=
+[Outputs]
+CARRYOUT
+=ALU_OUT[7:0]=
+[BiDir]

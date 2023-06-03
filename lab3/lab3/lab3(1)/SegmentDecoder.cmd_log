@@ -1,0 +1,2 @@
+vhdtdtfi -lib work SegmentDecoder.vhd -prj MKS_Lab3 -o SegmentDecoder.spl -module SegmentDecoder -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a SegmentDecoder.spl C:/MKS/MKS_Lab3/SegmentDecoder.sym 

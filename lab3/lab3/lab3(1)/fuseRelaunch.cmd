@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Zver/Desktop/MKS/lab3/lab3(1)/TopLevel_isim_beh.exe" -prj "C:/Users/Zver/Desktop/MKS/lab3/lab3(1)/TopLevel_beh.prj" "work.TopLevel" 

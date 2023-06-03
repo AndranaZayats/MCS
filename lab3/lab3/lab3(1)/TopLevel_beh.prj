@@ -1,0 +1,7 @@
+vhdl work "SegmentDecoder.vhd"
+vhdl work "RAM.vhd"
+vhdl work "MUX_2_1.vhd"
+vhdl work "CU.vhd"
+vhdl work "ALU.vhd"
+vhdl work "ACC.vhd"
+vhdl work "TopLevel.vhf"

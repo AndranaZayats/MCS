@@ -1,0 +1,5 @@
+set -tmpdir "C:/MKS/MKS_Lab3/xst/projnav.tmp"
+set -xsthdpdir "C:/MKS/MKS_Lab3/xst"
+elaborate
+-ifn ACC.prj
+-ifmt mixed

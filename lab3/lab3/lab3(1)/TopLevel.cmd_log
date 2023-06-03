@@ -1,0 +1,54 @@
+sch2sym -intstyle ise -family spartan3a -refsym TopLevel C:/MKS/MKS_Lab3/TopLevel.sch C:/MKS/MKS_Lab3/TopLevel.sym 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+sch2sym -intstyle ise -family spartan3a -refsym TopLevel C:/MKS/MKS_Lab3/TopLevel.sch C:/MKS/MKS_Lab3/TopLevel.sym 
+sch2sym -intstyle ise -family spartan3a -w -refsym TopLevel C:/MKS/MKS_Lab3/TopLevel.sch C:/MKS/MKS_Lab3/TopLevel.sym 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+sch2sym -intstyle ise -family spartan3a -w -refsym TopLevel C:/MKS/MKS_Lab3/TopLevel.sch C:/MKS/MKS_Lab3/TopLevel.sym 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+sch2sym -intstyle ise -family spartan3a -w -refsym TopLevel C:/MKS/MKS_Lab3/TopLevel.sch C:/MKS/MKS_Lab3/TopLevel.sym 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+sch2hdl -intstyle ise -family spartan3a -flat -suppress -vhdl TopLevel_drc.vhf -w C:/MKS/MKS_Lab3/TopLevel.sch 
+xst -intstyle ise -ifn "C:/MKS/MKS_Lab3/TopLevel.xst" -ofn "C:/MKS/MKS_Lab3/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s50a-tq144-5 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 

@@ -1,0 +1,7 @@
+vhdl work "C:\MKS\MKS_Lab3\SegmentDecoder.vhd"
+vhdl work "C:\MKS\MKS_Lab3\RAM.vhd"
+vhdl work "C:\MKS\MKS_Lab3\MUX_2_1.vhd"
+vhdl work "C:\MKS\MKS_Lab3\CU.vhd"
+vhdl work "C:\MKS\MKS_Lab3\ALU.vhd"
+vhdl work "C:\MKS\MKS_Lab3\ACC.vhd"
+vhdl work "C:\MKS\MKS_Lab3\TopLevel.vhf"
